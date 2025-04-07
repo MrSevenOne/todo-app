@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:todo_app/data/repositories/auth_repository.dart';
-import 'package:todo_app/presentation/widgets/snackBar_widget.dart';
 
 class AuthProvider extends ChangeNotifier {
   final AuthRepository _authRepository = AuthRepository();
