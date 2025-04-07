@@ -9,6 +9,8 @@ class AuthProvider extends ChangeNotifier {
   bool _isLoading = false;
   bool? _isLoggedIn;
 
+
+
   bool? get isLoggedIn => _isLoggedIn;
 
   bool get loading => _isLoading;
